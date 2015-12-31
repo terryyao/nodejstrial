@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta property="qc:admins" content="37013105522167452365124555106654" />
+    <title>Terry NodeJS Example</title>
+</head>
+<body>
+{^user}
+<p>
+    <a href="/">Home</a> |
+    <a href="/login">Log In</a>
+</p>
+{/user}
+{?user}
+<p>
+    <a href="/">Home</a> |
+    <a href="/logout">Log Out</a>
+</p>
+{/user}

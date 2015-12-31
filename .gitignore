@@ -1,0 +1,13 @@
+#webstorm
+.idea
+
+#npm modules
+node_modules
+
+#bower modules
+bower_components
+
+#public
+public
+
+bin/www.js

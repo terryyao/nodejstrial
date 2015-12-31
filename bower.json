@@ -1,0 +1,26 @@
+{
+  "name": "TerryNodejsApp",
+  "description": "Terry Trail App",
+  "main": "index.html",
+  "authors": [
+    "Terry Yao <yaohaif@cn.ibm.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Terry"
+  ],
+  "moduleType": [],
+  "homepage": "http://terrynodejs.mybluemix.net",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0",
+    "iron-elements": "PolymerElements/iron-elements#^1.0.0",
+    "paper-elements": "PolymerElements/paper-elements#^1.0.1"
+  }
+}

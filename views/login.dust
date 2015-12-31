@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>NodeJS Starter Application</title>
+    <meta property="qc:admins" content="37013105522167452365124555106654" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- <link rel="stylesheet" href="stylesheets/style.css"> -->
+    <script src="../public/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="/bower_components/iron-form/iron-form.html">
+    <link rel="import" href="/bower_components/paper-input/paper-input.html">
+    <link rel="import" href="/bower_components/paper-button/paper-button.html">
+  </head>
+
+  <body>
+    <div style="width:250px; height: 600px; margin: auto;">
+      <form is="iron-form" id="form" method="post" action="/form/handler">
+        <paper-input name="name" label="name"></paper-input>
+        <paper-input label="password" type="password"></paper-input>
+        <paper-button style="background-color: dodgerblue; float: right;">Login</paper-button>
+      </form>
+      <div style="clear: both; padding-top: 20px;">
+          <p>{@i18n t="login:thirdPartyLoginTitle"/}</p>
+          <ul style="padding-left: 0px; list-style-type: none;">
+              <li>
+                  <a href="/auth/qq"><img src="/imgs/qq_login.png"></a>
+              </li>
+          </ul>
+      </div>
+    </div>
+  </body>
+
+</html>

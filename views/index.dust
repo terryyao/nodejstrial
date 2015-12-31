@@ -1,0 +1,9 @@
+{>layout/}
+{^user}
+<h2>Welcome! Please log in.</h2>
+{/user}
+{?user}
+<h2>Hello, {user.nickname}.</h2>
+{/user}
+</body>
+</html>
