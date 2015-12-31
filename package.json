@@ -11,20 +11,20 @@
 	"dependencies": {
 		"express": "4.12.x",
 		"cfenv": "1.0.x",
-        "dustjs-helpers": "^1.6.2",
-        "dustjs-linkedin": "^2.6.1",
-        "i18next": "^1.7.10",
+		"dustjs-helpers": "^1.6.2",
+		"dustjs-linkedin": "^2.6.1",
+		"i18next": "^1.7.10",
 		"express-session": "~1.10.1",
 		"passport": "0.3.0",
 		"passport-qq": "^0.0.2",
-        "consolidate": "0.11.0"
+		"consolidate": "0.11.0"
 	},
 	"devDependencies": {
 		"bower": "^1.6.2",
 		"browser-sync": "^2.9.6",
 		"gulp": "^3.8.11",
-        "gulp-imagemin": "^2.3.0",
-        "gulp-newer": "^0.5.1",
+		"gulp-imagemin": "^2.3.0",
+		"gulp-newer": "^0.5.1",
 		"run-sequence": "^1.1.4"
 	},
 	"repository": {},
